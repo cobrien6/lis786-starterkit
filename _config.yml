@@ -2,6 +2,7 @@ title: Colin O'Brien's LIS786 Project
 theme: minima
 collections:
   locations: 
+    output: true
   collection:
     output: true
 
