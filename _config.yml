@@ -1,6 +1,7 @@
-title: My LIS786 Project
+title: Colin O'Brien's LIS786 Project
 theme: minima
 collections:
+  locations: 
   collection:
     output: true
 
