@@ -1,0 +1,57 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom Styles for Jekyll Minimal Theme */
+
+/* Improve Typography */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* Header Styling */
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.site-nav {
+    text-align: center;
+}
+
+.site-nav a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content Styling */
+.post-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    padding: 20px 0;
+}
