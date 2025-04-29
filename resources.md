@@ -3,12 +3,6 @@ title: Resources
 layout: page
 permalink: /resources
 ---
-<div>
-{% for location in site.locations %}
-    <h1>{{ location.title }}</h1>
-    <p>{{ location.description }}</p>
-{% endfor %}
-</div>
 
 
 <style>
@@ -44,7 +38,10 @@ button:hover {
 <div class="dropdown">
   <button onclick="toggleContent('geneva')">Geneva</button>
   <div id="geneva" class="content">
-    <p>Geneva offers a range of educational resources, including a vibrant public library, excellent schools, and community learning centers.</p>
+    {% for location in site.locations %}
+        <h1>{{ location.title }}</h1>
+        <p>{{ location.description }}</p>
+    {% endfor %}
   </div>
 </div>
 
