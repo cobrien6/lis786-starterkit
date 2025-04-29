@@ -1,6 +1,5 @@
 ---
-title: St. Charles School District 303 - Multilingual Learners Program
-town: St. Charles
-description: St. Charles Community Unit School District 303 serves over 900 multilingual learners across its schools, providing tailored educational support to students from diverse linguistic backgrounds. The district offers specialized services for English Language Learners (ELL) at all grade levels, with instructional models that help students develop academic English proficiency while meeting Illinois Learning Standards. Schools in the district use various strategies, including bilingual staff, sheltered instruction, and bilingual materials, to ensure equitable access to education. Additionally, the Bilingual Parent Advisory Committee (BPAC) promotes family involvement and supports educational success for multilingual students through workshops and community engagement.
+title: Literacy Volunteers Fox
+description: Literacy Volunteers Fox Valley (LVFV) is a nonprofit organization that helps adults in the Tri-City area improve their English reading, writing, speaking, and comprehension skills. They offer free, one-to-one tutoring, matching trained volunteer tutors with learners based on their goals and schedules. Whether someone needs English skills for work, school, or everyday life, LVFV provides personalized support to help individuals become more confident and independent. Tutoring sessions are flexible and often held at local libraries or online.
+video_link: https://www.youtube.com/embed/xaPv7zjSXD8
 ---
-
