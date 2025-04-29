@@ -3,6 +3,28 @@ title: About
 layout: page
 permalink: /about
 ---
+<style>
+button {
+  background-color: #4FC3F7; /* Light blue */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  margin: 8px 4px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #039BE5; /* Darker blue on hover */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(79, 195, 247, 0.5);
+}
+</style>
 <body>
 
 Select Language / Seleccionar idioma / Wybierz język / Selecionar idioma
