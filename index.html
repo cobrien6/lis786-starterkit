@@ -2,7 +2,40 @@
 title: Home
 layout: home
 ---
+
 <body>
-<p><img src="https://media.istockphoto.com/id/171306436/photo/red-brick-high-school-building-exterior.jpg?s=612x612&w=0&k=20&c=vksDyCVrfCpvb9uk4-wcBYu6jbTZ3nCOkGHPSgNy-L0="/></p>
-<p>Welcome to our site! Please explore our resoucres to find what is right for you.</p>
+<div id="home-text">
+  <p><img src="https://media.istockphoto.com/id/171306436/photo/red-brick-high-school-building-exterior.jpg?s=612x612&w=0&k=20&c=vksDyCVrfCpvb9uk4-wcBYu6jbTZ3nCOkGHPSgNy-L0="/></p>
+  <p>Welcome to our site! Please explore our resources to find what is right for you.</p>
+</div>
+
+<button onclick="setLanguage('en')">English</button>
+<button onclick="setLanguage('es')">Español</button>
+<button onclick="setLanguage('pl')">Polski</button>
+<button onclick="setLanguage('pt')">Português</button>
+
+<script>
+const translations = {
+  en: `
+    <p><img src="https://media.istockphoto.com/id/171306436/photo/red-brick-high-school-building-exterior.jpg?s=612x612&w=0&k=20&c=vksDyCVrfCpvb9uk4-wcBYu6jbTZ3nCOkGHPSgNy-L0="/></p>
+    <p>Welcome to our site! Please explore our resources to find what is right for you.</p>
+  `,
+  es: `
+    <p><img src="https://media.istockphoto.com/id/171306436/photo/red-brick-high-school-building-exterior.jpg?s=612x612&w=0&k=20&c=vksDyCVrfCpvb9uk4-wcBYu6jbTZ3nCOkGHPSgNy-L0="/></p>
+    <p>¡Bienvenidos a nuestro sitio! Explore nuestros recursos para encontrar lo que es adecuado para usted.</p>
+  `,
+  pl: `
+    <p><img src="https://media.istockphoto.com/id/171306436/photo/red-brick-high-school-building-exterior.jpg?s=612x612&w=0&k=20&c=vksDyCVrfCpvb9uk4-wcBYu6jbTZ3nCOkGHPSgNy-L0="/></p>
+    <p>Witamy na naszej stronie! Przeglądaj nasze zasoby, aby znaleźć coś odpowiedniego dla siebie.</p>
+  `,
+  pt: `
+    <p><img src="https://media.istockphoto.com/id/171306436/photo/red-brick-high-school-building-exterior.jpg?s=612x612&w=0&k=20&c=vksDyCVrfCpvb9uk4-wcBYu6jbTZ3nCOkGHPSgNy-L0="/></p>
+    <p>Bem-vindo ao nosso site! Explore nossos recursos para encontrar o que é certo para você.</p>
+  `
+};
+
+function setLanguage(lang) {
+  document.getElementById('home-text').innerHTML = translations[lang];
+}
+</script>
 </body>
