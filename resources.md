@@ -5,7 +5,7 @@ permalink: /resources
 ---
 <div>
 {% for location in site.locations %}
-    {{ location.title }}
-    {{ location.description }}
+    <h1>{{ location.title }}</h1>
+    <p>{{ location.description }}</p>
 {% endfor %}
 </div>
