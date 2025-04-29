@@ -19,49 +19,53 @@ body {
 .dropdown {
   margin-bottom: 20px;
 }
-label {
-  font-weight: bold;
-  margin-right: 10px;
-}
-select {
-  padding: 5px;
+button {
+  background-color: #4FC3F7;
+  border: none;
+  color: white;
+  padding: 12px 24px;
   font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+button:hover {
+  background-color: #039BE5;
+}
+.content {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-left: 3px solid #4FC3F7;
 }
 </style>
 
-</head>
-<body>
-
 <div class="dropdown">
-  <label for="geneva">Geneva:</label>
-  <select id="geneva">
-    <option value="">Select an option</option>
-    <option value="park">Park</option>
-    <option value="library">Library</option>
-    <option value="museum">Museum</option>
-  </select>
+  <button onclick="toggleContent('geneva')">Geneva</button>
+  <div id="geneva" class="content">
+    <p>Geneva offers a range of educational resources, including a vibrant public library, excellent schools, and community learning centers.</p>
+  </div>
 </div>
 
 <div class="dropdown">
-  <label for="batavia">Batavia:</label>
-  <select id="batavia">
-    <option value="">Select an option</option>
-    <option value="riverwalk">Riverwalk</option>
-    <option value="museum">Museum</option>
-    <option value="highschool">High School</option>
-  </select>
+  <button onclick="toggleContent('batavia')">Batavia</button>
+  <div id="batavia" class="content">
+    <p>Batavia is home to great public schools, a popular park district, and local programs supporting literacy and lifelong learning.</p>
+  </div>
 </div>
 
 <div class="dropdown">
-  <label for="stcharles">St. Charles:</label>
-  <select id="stcharles">
-    <option value="">Select an option</option>
-    <option value="zoo">Zoo</option>
-    <option value="theater">Theater</option>
-    <option value="library">Library</option>
-  </select>
+  <button onclick="toggleContent('stcharles')">St. Charles</button>
+  <div id="stcharles" class="content">
+    <p>St. Charles features a highly rated school district, an active library system, and plenty of events focused on family education and community engagement.</p>
+  </div>
 </div>
 
-</body>
-</html>
+<script>
+function toggleContent(id) {
+  const content = document.getElementById(id);
+  content.style.display = content.style.display === "block" ? "none" : "block";
+}
+</script>
 
