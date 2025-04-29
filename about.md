@@ -5,18 +5,19 @@ permalink: /about
 ---
 <body>
 
-<h1>About Us</h1>
-<div id="about-text">
-  <p>Welcome to Tri-City Education Connections!</p>
-  <p>We are dedicated to helping individuals and families in Geneva, Batavia, and St. Charles find the educational resources they need — especially those who are new to English or seeking further learning opportunities.</p>
-  <p>Our website brings together trusted local information from libraries, schools, government offices, and private organizations. Whether you're looking for English language classes, bilingual materials, or support for your children's education, we make it easy to connect with the right resources in your community.</p>
-  <p>At Tri-City Education Connections, we believe that language should never be a barrier to opportunity. Our goal is to empower everyone with clear pathways to education, growth, and success.</p>
-</div>
-
+Select Language / Seleccionar idioma / Wybierz język / Selecionar idioma
 <button onclick="setLanguage('en')">English</button>
 <button onclick="setLanguage('es')">Español</button>
 <button onclick="setLanguage('pl')">Polski</button>
 <button onclick="setLanguage('pt')">Português</button>
+
+<h1>About Us</h1>
+
+<p>Welcome to Tri-City Education Connections!</p>
+<p>We are dedicated to helping individuals and families in Geneva, Batavia, and St. Charles find the educational resources they need — especially those who are new to English or seeking further learning opportunities.</p>
+<p>Our website brings together trusted local information from libraries, schools, government offices, and private organizations. Whether you're looking for English language classes, bilingual materials, or support for your children's education, we make it easy to connect with the right resources in your community.</p>
+<p>At Tri-City Education Connections, we believe that language should never be a barrier to opportunity. Our goal is to empower everyone with clear pathways to education, growth, and success.</p>
+
 
 <script>
 const translations = {
@@ -52,5 +53,4 @@ function setLanguage(lang) {
 </script>
 
 </body>
-</html>
 
