@@ -45,7 +45,6 @@ secretary_name: John Smith
   text-decoration: underline;
 }
 
-<style>
 button {
   background-color: #4FC3F7; /* Light blue */
   border: none;
@@ -66,7 +65,6 @@ button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(79, 195, 247, 0.5);
 }
-</style>
 </style>
 
 <body>
