@@ -5,7 +5,7 @@ collections:
     output: true
   collection:
     output: true
-
+markdown: kramdown
 
 defaults:
   - scope:
