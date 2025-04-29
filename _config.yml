@@ -7,10 +7,6 @@ collections:
     output: true
 markdown: kramdown
 
-baseurl: ""
-include:
-  - "assets"
-
 defaults:
   - scope:
       type: "collection"
