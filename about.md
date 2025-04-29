@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Us
 layout: page
 permalink: /about
 ---
@@ -33,7 +33,6 @@ button:focus {
 <button onclick="setLanguage('es')">Español</button>
 <button onclick="setLanguage('pl')">Polski</button>
 <button onclick="setLanguage('pt')">Português</button>
-<h1>About Us</h1>
 
 <div id="about-text">
 <p>Welcome to Tri-City Education Connections!</p>
