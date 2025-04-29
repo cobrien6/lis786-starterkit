@@ -27,12 +27,12 @@ button:focus {
 </style>
 <body>
 
-Select Language / Seleccionar idioma / Wybierz język / Selecionar idioma
+<p>Select Language / Seleccionar idioma / Wybierz język / Selecionar idioma</p>
+
 <button onclick="setLanguage('en')">English</button>
 <button onclick="setLanguage('es')">Español</button>
 <button onclick="setLanguage('pl')">Polski</button>
 <button onclick="setLanguage('pt')">Português</button>
-
 <h1>About Us</h1>
 
 <p>Welcome to Tri-City Education Connections!</p>
