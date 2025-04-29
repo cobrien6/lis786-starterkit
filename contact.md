@@ -6,16 +6,6 @@ owner_name: Colin O'Brien
 secretary_name: John Smith
 ---
 <style>
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f7fa;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 
 .contact-container {
   background-color: white;
