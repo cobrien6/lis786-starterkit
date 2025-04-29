@@ -61,16 +61,9 @@ body {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  .contact-container {
-    width: 95%;
-    padding: 20px;
-  }
-}
-
 </style>
 
-
+<body>
 <div class="contact-container">
   <div class="contact-section">
     <h3>{{ page.owner_name }}</h3>
@@ -86,5 +79,5 @@ body {
     <p>For general inquiries and finding a resource for you, please contact John Smith, secretary and community coordinator.</p>
   </div>
 </div>
-
+</body>
 
